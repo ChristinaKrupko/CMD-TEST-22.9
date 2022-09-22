@@ -1,0 +1,14 @@
+md aaa
+md bbb
+md ccc
+
+cd bbb
+md ddd
+
+cd..
+md ccc
+dir > LIST.TXT
+
+cd..
+cd..
+del TEST123
